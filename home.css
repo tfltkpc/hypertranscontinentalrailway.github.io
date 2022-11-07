@@ -21,6 +21,10 @@
     background-color: #e9be5a;
   }
   
+  li {
+    list-style: none;
+  }
+
   .heading-primary,
   .heading-secondary,
   .heading-tertiary {
