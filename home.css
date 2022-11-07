@@ -74,13 +74,8 @@
     padding: 0 4.8rem;
   }
   
-  .logo {
-    height: 2.2rem;
-    font-size: 3.6rem;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    color: #462d12;
+  .header img {
+      width: 30%;
   }
   
   /* ****************** */
