@@ -87,27 +87,61 @@
   /* Navigation */
   /* ****************** */
   
-  .main-nav-list {
-    list-style: none;
+  .main-nav {
     display: flex;
     align-items: center;
-    gap: 4.8rem;
-  }
-  
-  .main-nav-link {
-    display: inline-block;
-    text-decoration: none;
-    color: #462d12;
-    font-weight: 400;
-    font-size: 1.8rem;
-  }
-  
-  .main-nav-link.nav-cta {
-    padding: 1.2rem 2.4rem;
-    border-radius: 9px;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
     color: #fff;
-    background-color: #523414;
-  }
+   }
+   .main-nav-link {
+    color: #fff;
+   }
+   /* LOGO */
+   .logo {
+    font-size: 32px;
+   }
+   /* NAVBAR MENU */
+   .main-nav-menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .main-nav-menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   }
+   .main-nav-menu li {
+    padding: 5px 14px;
+   }
+   /* DROPDOWN MENU */
+   .services {
+    position: relative; 
+   }
+   .main-nav-dropdown {
+    background-color: rgb(1, 139, 139);
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+   }
+   .main-nav-dropdown li + li {
+    margin-top: 10px;
+   }
+   .main-nav-dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .main-nav-dropdown li:hover {
+    background-color: #4c9e9e;
+   }
+   .services:hover .dropdown {
+    display: block;
+   }
   
   /* ****************** */
   /* Hero section */
